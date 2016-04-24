@@ -1,10 +1,10 @@
 /**
- * UEFS-WeatherStation.ino - SWE ready weater station to measure temperature and humidity
+ * UefsWS.ino - SWE ready weather station to measure temperature and humidity
  * 
  * Author: Natanael Simoes <natanael.simoes@ifro.edu.br> http://github.com/natanaelsimoes/
  * Master degree in Applied Computing at State University of Feira de Santana (UEFS) http://uefs.br/
  * 
- * Each 200s a new sample is measured. After collecting 4 samples (1h), mean is calculated then sent to a 52n Util server.
+ * Each 15m a new sample is measured. After collecting 4 samples (1h), mean is calculated then sent to a 52n Util server.
  * 
  * This station uses some modules to achieve the proposed goal:
  * - Ethernet Module w/ ENC28J60
