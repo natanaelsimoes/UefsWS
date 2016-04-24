@@ -1,4 +1,4 @@
-# UefsWS
+# Uefs Weather Station - UefsWS
 This is an Arduino project that enables a SWE ready  weather station to measure temperature and humidity that sends observations to a [52° North SOS](https://github.com/52north/SOS) using the middleware service [52° North SOS Util](https://github.com/natanaelsimoes/52n-sos-util).
 
 ## Configuring
